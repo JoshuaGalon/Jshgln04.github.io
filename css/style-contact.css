@@ -1,0 +1,236 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,400&display=swap');
+
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: Poppins;
+  box-sizing: border-box; 
+  background-color: rgb(0, 0, 0);                           
+}
+.logo img{
+  height: 20vh;
+  width: 13vw;
+  margin-top: -15px;
+  margin-left: 20px;
+
+}.logo{
+ height: 10px;
+
+}
+ul{
+  padding-top: 15px;
+  padding-left: 1080px;
+}
+
+ul a{
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   font-size: 13px;
+   margin-inline: 20px;
+   position: relative;
+ } 
+ a::after{
+   content: "";
+   position: absolute;
+   background-color: cyan;
+   width: 0%;
+   height: 3px;
+   left: 0;
+   bottom: -2.5px;
+   transition: 0.5s;
+ }
+ a:hover::after{
+   width: 100%;
+ }
+
+  .topic-text{
+      font-size: 10px;
+<<<<<<< HEAD
+      padding-left: 200px;
+  }
+
+  h1{
+      color: whitesmoke;
+      padding-left: 100px;
+=======
+  }
+  h1{
+      color: whitesmoke;
+>>>>>>> 2c91405ca7c37d27bf229f5b8dd46efd88976172
+  }
+  span{
+      color: cyan;
+  }
+  .topic{
+      color: whitesmoke;
+  }
+  .topic-text {
+    font-size: 25px;
+    padding-left: 500px;
+    padding-top: 50px;
+}
+  .container{
+    width: 80%;
+    background: rgb(0, 0, 0);
+    border-radius: 6px;
+    padding: 10px 60px 0px 0px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    padding-top: 50px;
+    padding-left: 10px;
+  }
+  .container .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .container .content .left-side{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    position: relative;
+  }
+  .content .left-side::before{
+    content: '';
+    position: absolute;
+    height: 70%;
+    width: 2px;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #afafb6;
+  }
+  .content .left-side .details{
+    margin: 14px;
+    text-align: center;
+  }
+  
+  .content .left-side .details .topic{
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .content .left-side .details .text-one,
+  .content .left-side .details .text-two{
+    font-size: 14px;
+    color: #afafb6;
+  }
+  .container .content .right-side{
+    width: 75%;
+    margin-left: 75px;
+  }
+  .content .right-side .topic-text{
+    font-size: 23px;
+    font-weight: 600;
+    color: #3e2093;
+  }
+  .right-side .input-box{
+    height: 50px;
+    width: 100%;
+    margin: 12px 0;
+  }
+  .right-side .input-box input,
+  .right-side .input-box textarea{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: #F0F1F8;
+    border-radius: 6px;
+    padding: 0 15px;
+    resize: none;
+  }
+  .right-side .message-box{
+    min-height: 110px;
+  }
+  .right-side .input-box textarea{
+    padding-top: 6px;
+  }
+  .right-side .button{
+    display: inline-block;
+    margin-top: 12px;
+  }
+  .right-side .button input[type="button"]{
+    color: rgb(3, 3, 3);
+    font-size: 18px;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background: cyan;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .button input[type="button"]:hover{
+    background: rgb(255, 255, 255);
+  }
+  /* For devices with a maximum width of 480px */
+@media (max-width: 480px) {
+  .ul{
+    padding-left: 0px;
+  }
+  .topic-text {
+    font-size: 20px;
+    padding-left: 80px;
+  }
+  .container .content .left-side {
+    width: 100%;
+    margin-top: 0;
+  }
+  .content .left-side::before {
+    display: none;
+  }
+  .container .content .right-side {
+    width: 100%;
+    margin-left: 0;
+  }
+  ul {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+<<<<<<< HEAD
+@media (max-width: 800px) {
+  h1 {
+    padding-left: 20px;
+    font-size: 40px;
+  }
+  p {
+    padding-left: 20px;
+    font-size: 16px;
+  }
+  .text-1 p {
+    font-size: 14px;
+  }
+  .text-2{
+    padding-left: 0px;
+  }
+  ul{
+    padding-left: 0px;
+
+  }
+  .text-2 ul {
+    padding-left: 20px;
+  }
+  ul a {
+    font-size: 12px;
+    margin-inline: 10px;
+  }
+  .icons {
+    padding-left: 0px;
+  }
+} 
+=======
+
+>>>>>>> 2c91405ca7c37d27bf229f5b8dd46efd88976172
+  
+  
+
+
+ 
